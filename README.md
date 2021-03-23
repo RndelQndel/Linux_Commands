@@ -78,4 +78,3 @@ __groupdel [ group_name ]__
 group을 삭제한다.  
 delete group.  
 
-# Test
