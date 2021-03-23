@@ -2,8 +2,8 @@
 List Linux Commands
 
 # useradd
-useradd [ user_account ]  
-useradd [ options ] [ user_account ]  
+__useradd [ user_account ]__  
+__useradd [ options ] [ user_account ]__  
   
 user를 추가한다  
 add user  
@@ -22,7 +22,7 @@ Option | Description(Kor) | Description(Eng)
 -c | 주석 | comment
 
 # usermod
-usermod [ options ] [ user_account ]  
+__usermod [ options ] [ user_account ]__  
   
 user 속성을 변경한다    
 Change user setting  
@@ -40,7 +40,7 @@ Option | Description(Kor) | Description(Eng)
 -s | 로그인할 때 사용할 기본 셀(SHELL) 지정 | set user's login shell
 
 # userdel
-userdel [ user_account ]  
+__userdel [ user_account ]__  
   
 user를 삭제한다  
 delete user  
@@ -48,8 +48,8 @@ delete user
 
 
 # groupadd
-groupadd [ group_name ]  
-groupadd [ options ] [ group_name ]  
+__groupadd [ group_name ]__  
+__groupadd [ options ] [ group_name ]__  
   
 group을 추가한다  
 add group  
@@ -61,7 +61,7 @@ Option | Description(Kor) | Description(Eng)
 -r | 0에서 499까지 GID를 자동 지정 | auto set GID ( 0 ~ 499 )
 
 # groupmod
-groupmod [ option ] [ group_name ]  
+__groupmod [ option ] [ group_name ]__  
   
 group 속성을 변경한다.  
 Change group setting  
@@ -73,8 +73,8 @@ Option | Description(Kor) | Description(Eng)
 -r | 0에서 499까지 GID를 자동 지정 | auto set GID ( 0 ~ 499 )
 
 # groupdel
-groupdel [ group_name ]  
+__groupdel [ group_name ]__  
   
 group을 삭제한다.  
 delete group.  
-  
+
