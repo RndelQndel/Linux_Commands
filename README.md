@@ -2,9 +2,9 @@
 List Linux Commands
 
 # useradd
-useradd [ user_account ] 
-useradd [ options ] [ user_account ] 
-useradd options 
+useradd [ user_account ]  
+useradd [ options ] [ user_account ]  
+useradd options  
 Option | Description(Kor) | Description(Eng)
 ---- | ---- | ----
 -u | 사용자 계졍 UID | user account UID
